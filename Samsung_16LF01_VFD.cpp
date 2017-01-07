@@ -116,6 +116,10 @@ inline size_t Samsung_16LF01_VFD::write(uint8_t _char) {
   else if (_char >= 97 && _char <= 122) {
     sendCommand(_char - 96);
   }
+  // If we get a return carrier, return to position 0.
+  if (_char == '\r' || _char == '\n') {
+    setCursor(0);
+  }
   return 1;
 }
 

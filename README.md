@@ -22,11 +22,12 @@ You need to include library header at the beginning of the sketch.
 The library class inherits the Print class of Arduino, so that you can display texts (not all chars supported) on VFD with standard Arduino functions like this:
 
 ```C++
-lcd.print("Hello, World!";)
-lcd.print(foo, DEC);
-lcd.print(bar, HEX);
-lcd.print(1.23)         // gives "1.23" 
-lcd.print(1.23456, 2);  // gives "1.23" 
+vfd.print("Hello, World!";)
+vfd.print(foo, DEC);
+vfd.print(bar, HEX);
+vfd.print(1.23)         // gives "1.23" 
+vfd.print(1.23456, 2);  // gives "1.23" 
+vfd.println("hello");   // prints "hello" and return to position 0
 ```
 
 Besides, it provides unified APIs for initializing and controlling the VFD, as well as some convenient operations.
@@ -62,7 +63,9 @@ void setup() {
 }
 
 void loop() {
-  vfd.setCursor(0);
   vfd.print(millis() / 1000);
+  vfd.println(" s");
+  delay(1000);
 }
 ```
+

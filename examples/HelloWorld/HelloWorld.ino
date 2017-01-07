@@ -19,7 +19,8 @@ void setup() {
 } 
 
 void loop() {
-  vfd.setCursor(0);
   vfd.print(millis() / 1000);
+  vfd.println(" s");
+  delay(1000);
 }
 
