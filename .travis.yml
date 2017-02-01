@@ -6,5 +6,7 @@ script:
   - build_main_platforms
 notifications:
   email:
-    on_success: change
-    on_failure: change
+  recipients:
+    - dnax88@gmail.com
+  on_success: change
+  on_failure: change
