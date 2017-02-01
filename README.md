@@ -1,5 +1,6 @@
 Samsung 16LF01 series VFD Library for Arduino
 ============================
+[![Coverage Status](https://coveralls.io/repos/github/DnaX/Samsung_16LF01_VFD/badge.svg?branch=master)](https://coveralls.io/github/DnaX/Samsung_16LF01_VFD?branch=master)
 
 _Written by Daniele Napolitano, distributed under GPL._
 
