@@ -10,6 +10,7 @@ Samsung_16LF01_VFD fully tested with the following displays:
 
  * Samsung 16LF01UA3
     
+![display_photo](http://www.vfdsamsung.com/pics-vfd/16LF01UA3-4.jpg)
 
 Usage
 -----
