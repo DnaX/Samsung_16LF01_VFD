@@ -4,13 +4,23 @@ Samsung 16LF01 series VFD Library for Arduino
 
 _Written by Daniele Napolitano, distributed under GPL._
 
-Samsung_16LF01_VFD is an Arduino library designed for displaying characters on Samsung 16LF01 series 16-segments VFD with synchronous serial protocol. The API used tries to be compatible with the [LiquidCrystal](http://arduino.cc/en/Reference/LiquidCrystal) library.
+Samsung_16LF01_VFD is an Arduino library designed for displaying characters on Samsung 16LF01 series 16-segments VFD with synchronous serial protocol (_like_ SPI, but with different timing). The API used tries to be compatible with the [LiquidCrystal](http://arduino.cc/en/Reference/LiquidCrystal) library.
 
-Samsung_16LF01_VFD fully tested with the following displays:
+Compatible displays
+-----
+
+The library Samsung_16LF01_VFD is fully tested with the following displays:
 
  * Samsung 16LF01UA3
     
 ![display_photo](http://www.vfdsamsung.com/pics-vfd/16LF01UA3-4.jpg)
+
+Its known the existence of these Samsung VFD displays with the same Sync Serial protocol:
+
+ * 16LF01UA4 (1x16 character)
+ * 9MS09SS1 (1x9 character, 14-segments)
+
+Perhaps other display from Samsung or other manufacturers share the same protocol, let me know :)
 
 Usage
 -----
