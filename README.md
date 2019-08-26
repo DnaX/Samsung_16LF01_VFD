@@ -19,6 +19,7 @@ Its known the existence of these Samsung VFD displays with the same Sync Serial 
 
  * 16LF01UA4 (1x16 character)
  * 9MS09SS1 (1x9 character, 14-segments)
+ * VFM161LSA1 (1x16 characters) \[[img](https://i.imgur.com/4vu5bco.jpg)\] (see [#2](https://github.com/DnaX/Samsung_16LF01_VFD/issues/2))
 
 Perhaps other display from Samsung or other manufacturers share the same protocol, let me know :)
 
