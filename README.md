@@ -1,6 +1,5 @@
-Samsung 16LF01 series VFD Library for Arduino
+Samsung 16LF01 series VFD Library for Arduino [![Build Status](https://github.com/DnaX/Samsung_16LF01_VFD/workflows/Arduino%20Library%20CI/badge.svg)](https://github.com/DnaX/Samsung_16LF01_VFD/actions)
 ============================
-[![Build Status](https://travis-ci.org/DnaX/Samsung_16LF01_VFD.svg?branch=master)](https://travis-ci.org/DnaX/Samsung_16LF01_VFD)
 
 _Written by Daniele Napolitano, distributed under GPL._
 
